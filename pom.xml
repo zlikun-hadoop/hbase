@@ -11,6 +11,7 @@
 
     <modules>
         <module>hbase-01-usage</module>
+        <module>hbase-02-splitter</module>
     </modules>
 
     <properties>

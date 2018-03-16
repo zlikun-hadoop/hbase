@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>hbase.zlikun.com</value>
+    </property>
+    <property>
+        <name>hbase.master.info.bindAddress</name>
+        <value>hbase.zlikun.com</value>
+    </property>
+    <!-- RegionServer端开启的RPC监听器实例个数，也即RegionServer能够处理的IO请求线程数。默认是10 -->
+    <property>
+        <name>hbase.regionserver.handler.count</name>
+        <value>30</value>
+    </property>
+</configuration>
